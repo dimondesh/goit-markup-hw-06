@@ -12,6 +12,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -24,6 +25,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .studio-link:hover,
 .studio-link:focus {
@@ -32,6 +34,8 @@ body {
 
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .contacts {
@@ -194,3 +198,22 @@ margin-left:
 margin-right:  
 }
  */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-menu {
+  display: flex;
+  gap: 40px;
+}
