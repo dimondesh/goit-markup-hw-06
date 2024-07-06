@@ -260,11 +260,11 @@ margin-right:
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container header-container {
+.header-container {
   display: flex;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
