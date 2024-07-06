@@ -100,7 +100,7 @@ ul {
   margin-bottom: 8px;
 }
 
-.benefits-item:first-child {
+.benefits-item {
   width: calc((100% - 3 * 24px) / 4);
 }
 
