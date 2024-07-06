@@ -3,7 +3,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -208,6 +213,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-accent {
   color: #f4f4fd;
@@ -217,6 +224,7 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 h1,
