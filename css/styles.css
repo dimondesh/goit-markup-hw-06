@@ -34,10 +34,12 @@ body {
 
 .address {
   font-style: normal;
+}
+
+.address-list {
   display: flex;
   gap: 40px;
 }
-
 .contacts {
   line-height: 1.5;
   letter-spacing: 0.02em;
