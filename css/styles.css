@@ -99,9 +99,11 @@ ul {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.benefits-item {
+
+.benefits-item:first-child {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .benefits-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
