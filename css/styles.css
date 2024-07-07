@@ -18,6 +18,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px;
 }
 
 .logo-accent {
@@ -44,6 +45,7 @@ ul {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px;
 }
 .contacts {
   line-height: 1.5;
@@ -276,6 +278,10 @@ margin-right:
 .header-nav-menu {
   display: flex;
   gap: 40px;
+}
+
+.header-nav-menu:last-child {
+  margin-right: 40px;
 }
 
 .visually-hidden {
