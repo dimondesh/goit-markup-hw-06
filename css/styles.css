@@ -60,7 +60,7 @@ ul {
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  padding: 188px 472px;
 }
 .hero-title {
   font-size: 56px;
@@ -69,6 +69,8 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-button {
@@ -85,6 +87,7 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  align-items: center;
 }
 .hero-button:hover,
 .hero-button:focus {
