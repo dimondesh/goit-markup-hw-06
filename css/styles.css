@@ -402,11 +402,7 @@ ul {
 
 .footer-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-  margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-social-text {
@@ -445,4 +441,8 @@ ul {
 
 .footer-icon {
   color: #f4f4fd;
+}
+
+.footer-logo-and-text {
+  margin-right: 120px;
 }
