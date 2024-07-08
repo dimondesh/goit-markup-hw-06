@@ -205,11 +205,6 @@ ul {
 .social-link:focus {
   background-color: #404bbf;
 }
-svg {
-  width: 16;
-  height: 16;
-  fill: #f4f4fd;
-}
 
 .team-item-text {
   font-size: 16px;
@@ -226,7 +221,7 @@ svg {
   gap: 24px;
 }
 
-.social-item {
+.team-icon {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
