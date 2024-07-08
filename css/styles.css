@@ -402,7 +402,10 @@ ul {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
   margin-right: 120px;
 }
 
