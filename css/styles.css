@@ -42,7 +42,7 @@ ul {
   color: #404bbf;
 }
 
-.studio-link::after {
+.studio-link.current::after {
   content: "";
   width: 100%;
   position: absolute;
