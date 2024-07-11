@@ -379,20 +379,6 @@ margin-right:
   gap: 40px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -512,6 +498,20 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .modal-window-container {
@@ -671,13 +671,18 @@ ul {
   justify-content: center;
   fill: transparent;
 }
-
-.modal-checkbox-input:checked + .modal-privacy-icon {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+.modal-checkbox:focus-within .modal-privacy-icon {
 }
 
+.modal-checkbox-input:checked + .modal-privacy-label > .modal-privacy-icon {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
+}
+.modal-checkbox-input {
+  position: absolute;
+  left: -99999999px;
+}
 .modal-privacy-link {
   color: #4d5ae5;
 }
@@ -705,4 +710,7 @@ ul {
 .modal-send-button:hover,
 .modal-send-button:focus {
   background: #404bbf;
+}
+
+.modal-checkbox-icon {
 }
