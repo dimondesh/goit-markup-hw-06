@@ -222,8 +222,7 @@ ul {
   gap: 24px;
   margin-top: 8px;
 }
-svg {
-}
+
 .team-icon,
 .footer-icon {
   fill: #f4f4fd;
@@ -499,9 +498,6 @@ ul {
   fill: #fff;
   border-radius: 4px;
   margin-left: 16px;
-}
-
-.subscribe-label {
 }
 
 .subscribe-input {
