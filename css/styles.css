@@ -473,6 +473,7 @@ ul {
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-button {
@@ -501,7 +502,6 @@ ul {
 }
 
 .subscribe-label {
-  gap: 24px;
 }
 
 .subscribe-input {
