@@ -654,6 +654,11 @@ ul {
 .modal-user-comment:focus {
   border-color: #4d5ae5;
 }
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 
 .modal-checkbox {
   margin-bottom: 24px;
