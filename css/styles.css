@@ -1445,6 +1445,16 @@ main .hero {
   background-size: cover;
   margin: 0 auto;
 }
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero2x.jpg);
+  }
+}
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -2168,14 +2178,4 @@ ol {
 
 .studio-link {
   display: none;
-}
-
-@media (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero2x.jpg);
-  }
 }
