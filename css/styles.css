@@ -2172,6 +2172,10 @@ ol {
 
 @media (min-resolution: 192dpi) {
   .hero {
-    background-image: url(../images/hero2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero2x.jpg);
   }
 }
